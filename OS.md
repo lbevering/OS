@@ -1226,9 +1226,9 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________________________________________________________________________
 4: What is the well known RID for the Windows Built-In Administrator Local account? - ``` 500 ```
 ______________________________________________________________________________________________________________________________________________________________________________________
-5: Complete the GET_CimInstance cmdlet to view all the user SIDs on a Windows host machine by Name and SID respectively: - ``` ??? ```
+5: Complete the GET_CimInstance cmdlet to view all the user SIDs on a Windows host machine by Name and SID respectively: - ``` name, sid ```
 ______________________________________________________________________________________________________________________________________________________________________________________
-6: In Windows what else does a user's security Token contain? - ``` ??? ```
+6: In Windows what else does a user's security Token contain? - ``` sid ```
 ______________________________________________________________________________________________________________________________________________________________________________________
 7: When contained in a Windows users access token, what privilege does SeBackupPrivilege grant to the user to perform on files and folders? - ``` Backup ```
 ______________________________________________________________________________________________________________________________________________________________________________________
@@ -1256,7 +1256,7 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________________________________________________________________________
 19: What security technique helps prevent overwrites of the Structured Exception Handler? - ``` SEHOP ```
 ______________________________________________________________________________________________________________________________________________________________________________________
-20: What security protection is built into Windows 10, as described in the "Memory reservations" item in Kernel pool protections? This includes protecting address space 0x00000000 (not listed in article). - ``` ??? ```
+20: What security protection is built into Windows 10, as described in the "Memory reservations" item in Kernel pool protections? This includes protecting address space 0x00000000 (not listed in article). - ``` null ```
 ______________________________________________________________________________________________________________________________________________________________________________________
 21: What Windows security feature prevents the replacement of essential system files, folders, and registry keys that are installed as part of the operating system? It became available starting with Windows Server 2008 and Windows Vista. - ``` Windows Resource Protection ```
 ______________________________________________________________________________________________________________________________________________________________________________________
